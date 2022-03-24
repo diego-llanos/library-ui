@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Container from './components/Container'
 
 
+
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="w-screen ">
           <Header />
           <Container />
+          
         </div>
       </div>
 
