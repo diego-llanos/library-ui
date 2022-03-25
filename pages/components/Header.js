@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex shadow-sm bg-white-50  p-4 justify-between  ">
             <div className="flex space-x-3  ">
             </div>
-            <div className="flex space-x-4 text-gray-400 mr-3">
+            <div className="flex space-x-4 text-red-600 mr-3 cursor-pointer">
                 <SearchIcon />
                 <NotificationsNoneIcon />
                 <SettingsIcon />

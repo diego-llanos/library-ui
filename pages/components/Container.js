@@ -27,10 +27,10 @@ const Container = () => {
                 <Card title="AVAILABLE" balance={300.0790} icon={1} />
                 <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} />
                 <Card title="DELEGATED" balance={339.0790} icon={3} />
-
+// className="grid grid-rows-2 gap-4 mt-6 space-x-6  mr-4"
             </div> */}
             {/* <div className="flex  ml-3 mt-6 space-x-6  mr-4"> */}
-            <div className="grid grid-rows-2 gap-4 mt-6 space-x-6  mr-4">
+            <div>
                 {/* <Middle /> */}
                 {/* <RightBar /> */}
                 <NavBar/>

@@ -19,7 +19,7 @@ const ContainerInf = () => {
                 <p className="font-bold text-2xl transform -translate-y-2">
             </p>
             </div>
-            <div className="grid grid-rows-2 gap-4 mt-6 space-x-6  mr-4">
+            <div>
 
                 <Table />
                 <SourceCode/>
@@ -27,5 +27,5 @@ const ContainerInf = () => {
         </div>
     )
 }
-
+// className="grid grid-rows-2 gap-4 mt-6 space-x-6  mr-4"
 export default ContainerInf
