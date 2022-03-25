@@ -22,7 +22,7 @@ const Sidebar = () => {
                 <div className="space-y-4" >
                     <h1 className="text-gray-400">Menu</h1>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-yellow-600  cursor-pointer  ">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <HomeIcon className=" text-gray-300" />
                             <p className=" "  >Starting</p>
                         </div>
