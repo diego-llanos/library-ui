@@ -8,13 +8,15 @@ import Container from './components/Container'
 export default function Home() {
   return (
     <div>
-      <div className="flex w-screen h-screen" >
+      <div className="flex w-screen h-screen  " >
         <Sidebar />
-        <div className="w-screen ">
+        <div className="w-screen h-screen  overflow-y-scroll">
+
           <Header />
+      
           <Container />
-          
         </div>
+          
       </div>
 
     </div>

@@ -8,7 +8,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 
 const Sidebar = () => {
     return (
-        <div className="md:w-3/12 w-6/12 h-screen shadow-2xl">
+        <div className="md:w-3/12 w-6/12 h-screen shadow-2xl overflow-y-scroll">
             <div className=" border-b py-3 mt-1 flex justify-around ">
                 <img 
                     className="m-2 w-10 sm:w-20 self-center"                                          
@@ -52,6 +52,51 @@ const Sidebar = () => {
                         </div>
                     </div>
 
+                </div>
+                <div className="space-y-6" >
+                    <h1 className="text-gray-400">Settings</h1>
+                    <div className="">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-gray-300" />
+                            <p className="text-gray-600  " >Settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="space-y-6" >
+                    <h1 className="text-gray-400">Settings</h1>
+                    <div className="">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-gray-300" />
+                            <p className="text-gray-600  " >Settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="space-y-6" >
+                    <h1 className="text-gray-400">Settings</h1>
+                    <div className="">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-gray-300" />
+                            <p className="text-gray-600  " >Settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="space-y-6" >
+                    <h1 className="text-gray-400">Settings</h1>
+                    <div className="">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-gray-300" />
+                            <p className="text-gray-600  " >Settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="space-y-6" >
+                    <h1 className="text-gray-400">Settings</h1>
+                    <div className="">
+                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-gray-300" />
+                            <p className="text-gray-600  " >Settings</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="space-y-6" >
                     <h1 className="text-gray-400">Settings</h1>

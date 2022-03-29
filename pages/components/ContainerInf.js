@@ -15,14 +15,17 @@ const ContainerInf = () => {
         <div className=" bg-gradient-to-r from-black-100 to-green-100 h-full " >
             <div className="  px-8 py-1 ">
                 <p className="text-gray-500 text-lg">
+                <Table />
             </p>
                 <p className="font-bold text-2xl transform -translate-y-2">
+                <SourceCode/>
             </p>
             </div>
             <div>
 
-                <Table />
-                <SourceCode/>
+            
+
+           
             </div>
         </div>
     )

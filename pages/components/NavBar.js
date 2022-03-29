@@ -4,7 +4,7 @@ import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 //container mx-auto
 const Header = () => {
     return (
-        <div className="flex shadow-md bg-gray-50  p-4 justify-between ">
+        <div className="flex shadow-md bg-gray-50  p-4 justify-between  ">
             <div className="flex space-x-24  ">
                 <p className="text-red-500 font-bold text-xl ">TABLE MODEL 1 </p>
                 <p> </p>
