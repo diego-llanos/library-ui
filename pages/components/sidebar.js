@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className=" border-b py-3 mt-1 flex justify-around ">
                 <img 
                     className="m-2 w-10 sm:w-20 self-center"                                          
-                    src="/logo.png"
+                    src="/logo-effex.png"
                     alt="Picture of the author"
                  />
                 
@@ -22,33 +22,33 @@ const Sidebar = () => {
                 <div className="space-y-4" >
                     <h1 className="text-gray-400">Menu</h1>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <HomeIcon className=" text-gray-300" />
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <HomeIcon className="text-blue-300 {color: #facc15}" />
                             <p className=" "  >Starting</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ClearAllIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Components</p>
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <ClearAllIcon className="text-blue-300" />
+                            <p className="" >Components</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ComputerIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >System</p>
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <ComputerIcon className="text-blue-300" />
+                            <p className="  " >System</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <BorderColorIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Styles</p>
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <BorderColorIcon className="text-blue-300" />
+                            <p className="  " >Styles</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <EqualizerIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Graphs</p>
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <EqualizerIcon className="text-blue-300" />
+                            <p className="  " >Graphs</p>
                         </div>
                     </div>
 
@@ -56,57 +56,22 @@ const Sidebar = () => {
                 <div className="space-y-6" >
                     <h1 className="text-gray-400">Settings</h1>
                     <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
+                        <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                            <SettingsIcon className="text-blue-300" />
+                            <p className=" " >Settings</p>
                         </div>
                     </div>
                 </div>
-                <div className="space-y-6" >
-                    <h1 className="text-gray-400">Settings</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
+                
+                    <div  className="space-y-6" >
+                        <div className="">
+                            <div className="flex p-3 text-black-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                                 <SettingsIcon className="text-blue-300" />
+                                <p className=" " >test</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="space-y-6" >
-                    <h1 className="text-gray-400">Settings</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="space-y-6" >
-                    <h1 className="text-gray-400">Settings</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="space-y-6" >
-                    <h1 className="text-gray-400">Settings</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="space-y-6" >
-                    <h1 className="text-gray-400">Settings</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SettingsIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Settings</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     )

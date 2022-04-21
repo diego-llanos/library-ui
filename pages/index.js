@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Sidebar from './components/sidebar'
 import Header from "./components/Header"
 import Container from './components/Container'
-
+import DropDown from './components/DropDown'
 
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-screen h-screen  overflow-y-scroll">
 
           <Header />
-      
+          <DropDown />     
           <Container />
         </div>
           
