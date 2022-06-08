@@ -1,8 +1,6 @@
 import React from 'react'
 
-import Card from './Card'
-import Middle from './Middle'
-import RightBar from './RightBar'
+
 import NavBar from './NavBar'
 import Table from './Table'
 import SourceCode from './SourceCode'
