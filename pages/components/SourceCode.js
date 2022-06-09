@@ -10,7 +10,7 @@ const SourceCode = () => {
     return (
       <>
       <h2>Source code</h2>
-      <Box
+      <Box 
         component={SyntaxHighlighter}
         language={language}
         style={vs2015}
@@ -19,15 +19,15 @@ const SourceCode = () => {
         margin={`${theme.spacing(0)} !important`}
       >
         {code}
-      </Box>
+      </Box >
                   </>
     );
   };
     return (
-        <div className="flex shadow-sm bg-white-50  p-4 justify-between  max-w-6xl">
+        <div className="flex shadow-sm bg-white-50  p-4 justify-between">
             
-                <Box marginTop={4} >
-                    {renderCodeBlock(`
+                <Box marginTop={4} marginLeft={4} >
+                    {renderCodeBlock( `
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
