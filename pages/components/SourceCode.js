@@ -8,6 +8,8 @@ const SourceCode = () => {
     const theme = useTheme();
   const renderCodeBlock = (code = '', language = 'jsx') => {
     return (
+      <>
+      <h2>Source code</h2>
       <Box
         component={SyntaxHighlighter}
         language={language}
@@ -18,12 +20,13 @@ const SourceCode = () => {
       >
         {code}
       </Box>
+                  </>
     );
   };
     return (
-        <div className="flex shadow-sm bg-white-50  p-4 justify-between  ">
-            <pre>
-                <Box marginTop={2}>
+        <div className="flex shadow-sm bg-white-50  p-4 justify-between  max-w-6xl">
+            
+                <Box marginTop={4} >
                     {renderCodeBlock(`
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
@@ -97,7 +100,7 @@ export default function SpacingGrid() {
 
                     `)}
                 </Box>
-            </pre>
+            
         </div>
     )
 

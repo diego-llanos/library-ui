@@ -11,10 +11,10 @@ import ContainerInf from './ContainerInf'
 const Container = () => {
     return (
         <div className=" bg-gradient-to-r from-gray-100 to-gray-50 h-full " >
-            <div className="  px-8 py-1 ">
+            {/* <div className="  px-8 py-1 ">
                     
                 
-            </div>
+            </div> */}
             
             <div>
                 
