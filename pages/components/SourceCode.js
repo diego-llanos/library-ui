@@ -25,11 +25,8 @@ const SourceCode = () => {
   };
     return (
 
-        <div className="flex shadow-sm bg-white-50  p-4 justify-between">
-
-
-            
-                <Box marginTop={4} marginLeft={4} >
+        <div className="flex shadow-sm bg-white-50  p-4 justify-between text-xl" >
+                <Box marginTop={2}marginLeft={13} >
                     {renderCodeBlock( `
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
@@ -100,7 +97,6 @@ export default function SpacingGrid() {
     </Grid>
   );
 }
-
                     `)}
                 </Box>
             
