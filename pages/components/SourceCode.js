@@ -24,7 +24,7 @@ const SourceCode = () => {
     );
   };
     return (
-        <div className="flex shadow-sm bg-white-50  p-4 justify-between  max-w-6xl">
+        <div className="flex shadow-sm bg-white-50  p-4 justify-center  max-w-6xl ">
             
                 <Box marginTop={4} >
                     {renderCodeBlock(`

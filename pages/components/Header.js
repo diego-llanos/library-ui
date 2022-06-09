@@ -13,7 +13,7 @@ const Header = () => {
         <div className=" flex shadow-sm bg-white-50  p-4 justify-between screen-xl  ">
             <div className="flex space-x-3  ">
             </div>
-            <div className="flex space-x-4 text-red-600 mr-3 cursor-pointer">
+            <div className="flex space-x-4 text-blue-600 mr-3 cursor-pointer">
                 <SearchIcon />
                 <NotificationsNoneIcon />
                 <SettingsIcon />

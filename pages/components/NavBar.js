@@ -6,12 +6,12 @@ const Header = () => {
     return (
         <div className="flex shadow-md bg-gray-50  p-4 justify-between  ">
             <div className="flex space-x-24  ">
-                <p className="text-red-500 font-bold text-xl ">TABLE MODEL 1 </p>
+                <p className="text-blue-400 font-bold text-xl ">TABLE MODEL 1 </p>
                 <p> </p>
                 
 
             </div>
-            <div className="flex space-x-4 text-red-400 mr-3 cursor-pointer">
+            <div className="flex space-x-4 text-blue-400 mr-3 cursor-pointer">
 
                 <NavigateBeforeIcon />
                 <NavigateNextIcon />

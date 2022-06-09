@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className=" border-b py-3 mt-1 flex justify-around ">
                 <img 
                     className="m-2 w-10 sm:w-20 self-center"                                          
-                    src="/logo-effex.png"
+                    src="/ioo.png"
                     alt="Picture of the author"
                  />
                 

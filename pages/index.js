@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-screen h-screen  overflow-y-scroll">
 
           <Header />
-          <DropDown />     
+          {/* <DropDown />      */}
           <Container />
         </div>
           
